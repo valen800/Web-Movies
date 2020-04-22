@@ -1,6 +1,7 @@
 import React from "react";
 import { layout, Layout } from "antd";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import MenuTop from "./components/MenuTop";
 
 //Pages
 import Error404 from "./pages/error404";
@@ -17,7 +18,9 @@ function App() {
   return (
     <layout>
       <Router>
-        <Header>Header...</Header>
+        <Header>
+          <MenuTop />
+        </Header>
         <Content>
           <Switch>
             <Route path="/" exact={true}>
