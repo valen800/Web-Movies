@@ -1,5 +1,5 @@
 import React from "react";
-import { layout, Layout } from "antd";
+import { Layout } from "antd";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MenuTop from "./components/MenuTop";
 
@@ -16,7 +16,7 @@ function App() {
 
   // Switch para cargar la primera pagina que encuentre si no carga dos parecidas por ejemplo
   return (
-    <layout>
+    <Layout>
       <Router>
         <Header>
           <MenuTop />
@@ -44,7 +44,7 @@ function App() {
           </Switch>
         </Content>
       </Router>
-    </layout>
+    </Layout>
   );
 }
 

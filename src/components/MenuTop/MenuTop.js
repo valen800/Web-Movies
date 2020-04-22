@@ -1,5 +1,5 @@
 import React from "react";
-import { Menu, Button } from "antd";
+import { Menu } from "antd";
 import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "../../assets/img/logo.svg";
 
