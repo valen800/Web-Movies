@@ -36,7 +36,7 @@ export default function NewMovies() {
           <Col span="24">
             <MovieCatalog movies={movieList} />
           </Col>
-          <Col>
+          <Col span="24">
             <Pagination
               currentPage={movieList.page}
               totalItems={movieList.total_results}
