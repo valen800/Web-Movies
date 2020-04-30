@@ -44,9 +44,7 @@ function Search(props) {
       </Col>
       {movieList.results && (
         <Row>
-          <Col span={24}>
-            <MovieCatalog movies={movieList} />
-          </Col>
+          <MovieCatalog movies={movieList} />
         </Row>
       )}
       <Col span={24}>
